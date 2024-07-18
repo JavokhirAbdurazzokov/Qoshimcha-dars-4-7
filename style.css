@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contanier {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #464646;
+}
+
+.btn {
+    padding: 18px 39px 18px 39px;
+    background-color: #124F48;
+    color: white;
+    border: none;
+    border-radius: 31px;
+}
+
+.hero .contanier {
+    background-color: #E9FBF9;
+    display: flex;
+    align-items: center;
+
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    color: black;
+    padding: 31px 51px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    padding: 31px 51px;
+    color: #464646;
+}
+
+.hero-text button {
+    color: white;
+    background-color: #FF823B;
+    border-radius: 31px;
+    padding: 18px;
+    margin: 18px 51px;
+}
+
+.hero-2 img {
+    width: 20%;
+    margin-left: 40px;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+.Exactly {
+    display: flex;
+    margin-top: 138px;
+    justify-content: space-between;
+}
+
+.Exactly-1div {
+    font-size: 30px;
+    max-width: 534px;
+}
+
+.Exactly-2div {
+    font-size: 20px;
+    max-width: 428px;
+    color: #464646;
+}
+
+.cards {
+    margin-top: 100px;
+    display: flex;
+    gap: 90px;
+}
+
+.card {
+    max-width: 350px;
+}
+
+.card h2 {
+    font-size: 30px;
+}
+
+.card p {
+    font-size: 28px;
+    color: #464646;
+    margin: 20px 0 20px 0;
+}
+
+.btn2 {
+    text-align: center;
+    padding: 18px 39px;
+    border: none;
+    border-radius: 29px;
+    background-color: inherit;
+}
+
+.btn2:hover {
+    text-align: center;
+    padding: 18px 39px;
+    border: none;
+    border-radius: 29px;
+    background-color: orange;
+    color: white;
+}
+
+.h11 {
+    text-align: center;
+    color: orange;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.we-worked {
+    margin-top: 100px;
+
+}
+
+.we-worked h1 {
+    font-size: 50px;
+
+}
+
+.we-worked img {
+    padding: 30px 0px 30px 0;
+}
+
+.we-worked h2 {
+    font-size: 40px;
+
+}
+
+.we-worked2 {
+    margin-top: 270px;
+}
+
+.we-worked p {
+    font-size: 20px;
+    color: #464646;
+    padding: 20px 0 20px 0;
+}
+
+.we-worked2 p {
+    font-size: 20px;
+    color: #464646;
+    padding: 20px 0 20px 0;
+}
+
+.k9 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: black;
+}
+
+.k9 :hover {
+    color: #FF823B;
+}
+
+.Achievements .contanier {
+    display: flex;
+    gap: 180px;
+
+}
+
+.blog {
+    display: flex;
+    gap: 170px;
+}
+
+.blogs-div1 {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.blogs-div1 h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.blogs-div1 p {
+    color: #464646;
+    font-size: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.blog-card {
+    margin-top: 60px;
+    max-width: 469px;
+}
+
+.blog-card h1 {
+    padding: 10px 0;
+}
+
+.blog-card p {
+    padding: 20px 0;
+}
+.Subscribe{
+    background-color: #E9FBF9;
+    padding: 50px 0;
+}
+.Subscribe h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 70px 0;
+}
+.with{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 400px;
+}
+.amid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.amid ul :hover{
+    color: #FF823B;
+}
+
+.amid ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 24px;
+}
+.amid ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer {
+    background-color: #124F48;
+    padding: 10px 0;
+}
+footer .contanier{
+    display: flex;
+    justify-content: space-between;
+}
